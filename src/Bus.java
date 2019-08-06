@@ -5,6 +5,16 @@ class Bus {
       protected   String Mark;
       protected   String Engine;
 
+      public Bus(int RublePerKM, int Capacity, int Price, String Mark, String Engine) {
+        this.RublePerKM = RublePerKM;
+        this.Capacity = Capacity;
+        this.Price = Price;
+        this.Mark = Mark;
+        this.Engine=Engine;}
+
+
+
+
 
     public void setCapacity(int Capacity) throws CapacityException{
         if (Capacity<0)

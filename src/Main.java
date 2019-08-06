@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        Bus Nefaz = new Bus();
+        Bus Nefaz = new Bus(10, 15, 33333, "bvz", "fjfjfj");
 
         try {
             Nefaz.setCapacity(50);
